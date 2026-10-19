@@ -1,0 +1,23 @@
+{
+  "name": "agent-chaos",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Chaos engineering for agents: deterministic fault injection, latency gremlins, flaky tools, and seeded randomness.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "agent-tools": "github:theAliCanAcar/agent-tools#main"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theAliCanAcar/agent-chaos.git"
+  },
+  "bugs": {
+    "url": "https://github.com/theAliCanAcar/agent-chaos/issues"
+  },
+  "homepage": "https://github.com/theAliCanAcar/agent-chaos#readme"
+}
